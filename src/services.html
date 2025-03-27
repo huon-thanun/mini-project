@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services-JPhoto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <header class="bg-gray-900 fixed w-full top-0 left-0">
+        <nav class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Logo Section -->
+                <div class="flex items-center">
+                    <a href="index.html" class="flex-shrink-0 flex items-center">
+                        <img class="h-8 w-8" src="/image/white-logo.png" alt="Logo">
+                        <span class="ml-2 text-xl font-bold">JPhoto</span>
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden sm:flex space-x-[50px] absolute left-1/2 transform -translate-x-1/2">
+                    <a href="index.html"
+                        class="border-b-2 border-transparent hover:border-gray-100 inline-flex items-center px-1 pt-1 text-sm font-medium">Home</a>
+                    <a href="about.html"
+                        class="border-b-2 border-transparent hover:border-gray-100 inline-flex items-center px-1 pt-1 text-sm font-medium">About</a>
+                    <a href="services.html"
+                        class="border-b-2 border-transparent hover:border-gray-100 inline-flex items-center px-1 pt-1 text-sm font-medium">Services</a>
+                    <a href="contact.html"
+                        class="border-b-2 border-transparent hover:border-gray-100 inline-flex items-center px-1 pt-1 text-sm font-medium">Contact</a>
+                </div>
+
+                <!-- Sign In / Sign Up Btn -->
+                <div class="hidden sm:flex sm:items-center">
+                    <button
+                        class="ml-4 bg-gray-900 text-gray-100 px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">Sign
+                        In</button>
+                    <button
+                        class="ml-4 bg-gray-100 text-gray-900 px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-300">Sign
+                        Up</button>
+                </div>
+
+                <!-- Mobile Menu Btn -->
+                <div class="-mr-2 flex items-center sm:hidden relative mobile-menu-button">
+                    <button
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white">
+                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <path class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                    <!-- Mobile Dropdown Menu -->
+                    <div class="mobile-menu">
+                        <a href="index.html" class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-700">Home</a>
+                        <a href="about.html"
+                            class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-700">About</a>
+                        <a href="services.html"
+                            class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-700">Services</a>
+                        <a href="contact.html"
+                            class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-700">Contact</a>
+                        <button class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-700">Sign
+                            In</button>
+                        <button class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-700">Sign
+                            Up</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 lg:px-8 py-20">
+        <div class="bg-gray-800 rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-bold mb-4">Our Services</h2>
+            <div class="space-y-4">
+                <div class="bg-gray-700 rounded-lg p-4">
+                    <h3 class="text-xl font-semibold">High-Quality Stock Photos</h3>
+                    <p class="text-gray-400">Access a vast collection of high-resolution stock photos for all your creative needs.</p>
+                </div>
+                <div class="bg-gray-700 rounded-lg p-4">
+                    <h3 class="text-xl font-semibold">Easy Downloads</h3>
+                    <p class="text-gray-400">Download photos with a single click. No complicated licensing or attribution required.</p>
+                </div>
+                <div class="bg-gray-700 rounded-lg p-4">
+                    <h3 class="text-xl font-semibold">Curated Collections</h3>
+                    <p class="text-gray-400">Browse through curated collections to find the perfect photo for your project.</p>
+                </div>
+                <div class="bg-gray-700 rounded-lg p-4">
+                    <h3 class="text-xl font-semibold">Custom Requests</h3>
+                    <p class="text-gray-400">Can't find what you're looking for? Request a custom photo shoot tailored to your needs.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
